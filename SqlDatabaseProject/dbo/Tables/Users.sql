@@ -7,6 +7,7 @@
     [Email]        NVARCHAR (15)  NULL,
     [User_Address] NVARCHAR (15)  NULL,
     [User_pincode] NVARCHAR (15)  NULL,
+    [User_State]   NVARCHAR (15)  NULL,
     PRIMARY KEY CLUSTERED ([UserId] ASC),
     FOREIGN KEY ([RoleId]) REFERENCES [dbo].[Roles] ([RoleId])
 );
